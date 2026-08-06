@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Credenciales — NUNCA subir al repositorio
+.env
+*.env
+api_key.txt
+es_password.txt
+ngrok_token.txt
+mcp_url.txt
+*_secret.txt
+*_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Colab / Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Docker
+*.log
+
+# PDFs del corpus (son grandes — usar Google Drive)
+data/docs_raw/*.pdf
