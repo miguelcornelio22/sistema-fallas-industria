@@ -1,0 +1,33 @@
+# Control de versiones
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Credenciales — NUNCA en la imagen
+api_key.txt
+es_password.txt
+ngrok_token.txt
+*.key
+
+# Notebooks y desarrollo
+*.ipynb
+.ipynb_checkpoints/
+
+# PDFs generados
+ordenes_generadas/
+Orden_*.pdf
+
+# Scripts de deploy
+deploy_*.sh
+README*
+*.md

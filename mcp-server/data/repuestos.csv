@@ -1,0 +1,31 @@
+ID_Equipo;Nombre_Equipo;Repuesto_Principal;Codigo_Repuesto;Fabricante_Repuesto;Stock_Unidades;Unidad_Medida;Stock_Minimo_Critico;Estado_Stock;Costo_Unitario_USD;Tiempo_Reposicion;Proveedor;Contacto_Proveedor;Ubicacion_Almacen;Norma_Almacenamiento;Ultimo_Pedido;Observaciones
+EQA-1001;Bomba Principal de Transferencia;Sello Mecanico Doble;SM-GR-3200;Grundfos;0;Unidad;2;CRITICO - Sin stock;850;30 dias;Grundfos Peru;+51-1-234-5678;Almacen-Cusco-A1;API 682;15/01/2026;Requiere importacion. Solicitar con 45 dias de anticipacion
+EQA-1001;Bomba Principal de Transferencia;Rodamiento SKF 6312;RD-SKF-6312;SKF;3;Unidad;2;OK;120;7 dias;Representaciones Tecnicas SA;+51-1-345-6789;Almacen-Cusco-A1;ISO 281;10/03/2026;Stock disponible en Lima
+EQA-1001;Bomba Principal de Transferencia;Empaquetadura Espiro-Metalica 3in;EMP-EM-3IN;Garlock;5;Unidad;3;OK;45;5 dias;Garlock Peru;+51-1-456-7890;Almacen-Cusco-A2;ASME B16.20;20/04/2026;
+EQA-1002;Valvula de Control de Flujo;Kit de Sello Valvula CV-500;KIT-FS-CV500;Fisher Emerson;5;Kit;2;OK;320;7 dias;Emerson Peru;+51-1-567-8901;Almacen-Cusco-B1;API 598;05/05/2026;
+EQA-1002;Valvula de Control de Flujo;Actuador Neumatico Repuesto;ACT-PN-500;Fisher Emerson;1;Unidad;1;ALERTA - Stock minimo;2800;15 dias;Emerson Peru;+51-1-567-8901;Almacen-Cusco-B1;ISA-75.01;10/02/2026;Revisar calibracion al instalar
+EQA-1003;Compresor de Gas A;Aceite Sintetico Compresor 20W-40;ACE-SIN-20W40;Shell;80;Litros;40;OK;8;3 dias;Shell Peru;+51-1-678-9012;Almacen-Cusco-A2;API 614;15/05/2026;Cambio cada 500 horas de operacion
+EQA-1003;Compresor de Gas A;Filtro de Gas de Entrada;FIL-GAS-JGC4;Ariel;2;Unidad;2;ALERTA - Stock minimo;450;15 dias;Ariel Peru;+51-1-789-0123;Almacen-Cusco-A1;ASME B31.8;01/04/2026;Cambio cada 1000 horas o segun analisis
+EQA-1003;Compresor de Gas A;Valvula de Succion de Repuesto;VAL-SUC-JGC4;Ariel;1;Unidad;2;CRITICO - Por debajo del minimo;1200;15 dias;Ariel Peru;+51-1-789-0123;Almacen-Cusco-A1;API 618;01/03/2026;Critico para operacion continua
+EQA-1004;Generador Diesel de Emergencia;Bateria 12V 200Ah;BAT-12V-200;Bosch;4;Unidad;2;OK;180;2 dias;Distribuidora Electrica SAC;+51-84-234-567;Almacen-Cusco-C1;IEC 60896;10/05/2026;
+EQA-1004;Generador Diesel de Emergencia;Filtro de Combustible;FIL-COM-3512;Caterpillar;10;Unidad;5;OK;35;2 dias;Ferreyros SA;+51-84-345-678;Almacen-Cusco-C1;DS 018-2004-EM;15/05/2026;Cambio cada 250 horas
+EQA-1004;Generador Diesel de Emergencia;Manguera de Combustible 1in;MAN-COM-1IN;Parker;6;Metro;3;OK;25;3 dias;Parker Peru;+51-84-456-789;Almacen-Cusco-C2;SAE J30;20/04/2026;
+EQA-2001;Bomba Secundaria de Descarga;Sello Mecanico Simple;SM-KSB-80;KSB;1;Unidad;2;ALERTA - Stock minimo;620;20 dias;KSB Peru;+51-1-890-1234;Almacen-Lima-A1;API 682;20/02/2026;Solicitar inmediatamente
+EQA-2001;Bomba Secundaria de Descarga;Impulsor de Repuesto;IMP-ETN-200;KSB;0;Unidad;1;CRITICO - Sin stock;950;20 dias;KSB Peru;+51-1-890-1234;Almacen-Lima-A1;ASME B31.4;10/01/2026;Importacion directa desde Alemania
+EQA-2002;Valvula de Seguridad PSV-201;Kit de Sello PSV;KIT-PSV-R;Emerson;0;Kit;2;CRITICO - Sin stock;480;45 dias;Emerson Peru;+51-1-567-8901;Almacen-Lima-B1;API 520 / API 526;15/12/2025;Tiempo de entrega critico. Gestionar urgente
+EQA-2003;Compresor de Gas B;Aceite Sintetico Compresor 20W-40;ACE-SIN-20W40;Shell;60;Litros;40;OK;8;3 dias;Shell Peru;+51-1-678-9012;Almacen-Lima-A2;API 614;10/05/2026;
+EQA-2003;Compresor de Gas B;Filtro de Gas de Entrada;FIL-GAS-JGC6;Ariel;3;Unidad;2;OK;520;15 dias;Ariel Peru;+51-1-789-0123;Almacen-Lima-A1;ASME B31.8;15/04/2026;
+EQA-2003;Compresor de Gas B;Valvula de Descarga Repuesto;VAL-DES-JGC6;Ariel;2;Unidad;2;ALERTA - Stock minimo;1450;15 dias;Ariel Peru;+51-1-789-0123;Almacen-Lima-A1;API 618;01/04/2026;
+EQA-2004;Generador Electrico Principal;Rele de Proteccion ABB;REL-ABB-P;ABB;4;Unidad;2;OK;220;5 dias;ABB Peru;+51-1-901-2345;Almacen-Lima-C1;IEC 60255;20/04/2026;
+EQA-2004;Generador Electrico Principal;Ventilador de Enfriamiento;VEN-CUM-C1100;Cummins;2;Unidad;1;OK;380;7 dias;Cummins Peru;+51-1-012-3456;Almacen-Lima-C1;IEC 60034;15/03/2026;
+EQA-3001;Bomba de Enfriamiento;Sello Mecanico;SM-GR-CM10;Grundfos;2;Unidad;1;OK;280;14 dias;Grundfos Peru;+51-54-234-567;Almacen-Arequipa-A1;API 682;10/04/2026;
+EQA-3002;Valvula de Corte de Bloqueo;Kit de Sello Asiento;KIT-SA-VB100;Velan;6;Kit;2;OK;195;7 dias;Representaciones Tecnicas SA;+51-54-345-678;Almacen-Arequipa-B1;API 598;05/05/2026;
+EQA-3003;Compresor de Gas C;Aceite Sintetico Compresor 20W-40;ACE-SIN-20W40;Shell;40;Litros;40;ALERTA - Stock minimo;8;3 dias;Shell Peru;+51-54-456-789;Almacen-Arequipa-A2;API 614;01/04/2026;Reponer urgente
+EQA-3003;Compresor de Gas C;Valvula de Succion de Repuesto;VAL-SUC-JGC4;Ariel;1;Unidad;2;ALERTA - Stock minimo;1200;20 dias;Ariel Peru;+51-1-789-0123;Almacen-Arequipa-A1;API 618;15/02/2026;
+EQA-3004;Generador Auxiliar;Bateria 12V 180Ah;BAT-12V-180;Bosch;8;Unidad;2;OK;155;3 dias;Distribuidora Electrica SAC;+51-54-567-890;Almacen-Arequipa-C1;IEC 60896;20/05/2026;
+EQA-4001;Bomba de Transferencia Principal;Sello Mecanico Doble;SM-FL-PVXM;Flowserve;0;Unidad;2;CRITICO - Sin stock;920;30 dias;Flowserve Peru;+51-73-234-567;Almacen-Piura-A1;API 682;10/12/2025;Requiere importacion urgente
+EQA-4001;Bomba de Transferencia Principal;Rodamiento FAG 6314;RD-FAG-6314;Schaeffler;2;Unidad;2;ALERTA - Stock minimo;145;10 dias;Representaciones Tecnicas SA;+51-73-345-678;Almacen-Piura-A1;ISO 281;01/04/2026;
+EQA-4002;Valvula de Retencion Check;Kit de Sello Check;KIT-SC-CV300;Crane;5;Kit;2;OK;165;7 dias;Distribuidora Industrial SA;+51-73-456-789;Almacen-Piura-B1;API 594;10/05/2026;
+EQA-4003;Compresor de Gas D;Aceite Sintetico Compresor 20W-40;ACE-SIN-20W40;Shell;50;Litros;40;OK;8;3 dias;Shell Peru;+51-73-567-890;Almacen-Piura-A2;API 614;05/05/2026;
+EQA-4003;Compresor de Gas D;Filtro de Gas de Entrada;FIL-GAS-JGC6;Ariel;2;Unidad;2;ALERTA - Stock minimo;520;15 dias;Ariel Peru;+51-1-789-0123;Almacen-Piura-A1;ASME B31.8;15/03/2026;
+EQA-4004;Generador Principal de Respaldo;Filtro de Combustible;FIL-COM-3406;Caterpillar;9;Unidad;4;OK;42;2 dias;Ferreyros SA;+51-73-678-901;Almacen-Piura-C1;DS 018-2004-EM;15/05/2026;
