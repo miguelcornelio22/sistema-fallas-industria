@@ -1,0 +1,17 @@
+ID;Nombre;Tipo;Ubicacion;Planta;Zona_Operativa;Criticidad;Anio_Instalacion;Fabricante;Modelo;Presion_Diseno_bar;Temperatura_Diseno_C;Fluido_Manejado;Norma_Aplicable;Responsable_Mantenimiento;Frecuencia_Inspeccion;Ultima_Inspeccion
+EQA-1001;Bomba Principal de Transferencia;Bomba Centrifuga;Planta-Cusco;Cusco;Zona-A;Alta;2018;Grundfos;CR-32-4;45;120;Gas Natural Liquido;ASME B31.4 / DS 062-2009-EM;Ing. Campo - Turno A;Mensual;15/05/2026
+EQA-1002;Valvula de Control de Flujo;Valvula de Control;Planta-Cusco;Cusco;Zona-A;Media;2019;Fisher;CV-500;40;100;Gas Natural;ASME B31.8 / DS 081-2007-EM;Ing. Campo - Turno B;Trimestral;10/04/2026
+EQA-1003;Compresor de Gas A;Compresor Reciprocante;Planta-Cusco;Cusco;Zona-B;Alta;2017;Ariel;JGC-4;85;150;Gas Natural;ASME B31.8 / DS 081-2007-EM;Ing. Campo - Turno A;Mensual;20/05/2026
+EQA-1004;Generador Diesel de Emergencia;Generador Diesel;Planta-Cusco;Cusco;Zona-C;Alta;2020;Caterpillar;3512C;N/A;90;Diesel;DS 018-2004-EM;Ing. Electrico - Turno A;Mensual;12/05/2026
+EQA-2001;Bomba Secundaria de Descarga;Bomba Centrifuga;Planta-Lima;Lima;Zona-A;Alta;2016;KSB;Etanorm 80-200;50;130;Gas Natural Liquido;ASME B31.4 / DS 062-2009-EM;Ing. Campo - Turno C;Mensual;18/05/2026
+EQA-2002;Valvula de Seguridad PSV-201;Valvula de Seguridad;Planta-Lima;Lima;Zona-A;Media;2019;Emerson;PSV-R;60;110;Gas Natural;ASME B31.8 / API 520;Ing. Campo - Turno B;Semestral;05/03/2026
+EQA-2003;Compresor de Gas B;Compresor Reciprocante;Planta-Lima;Lima;Zona-B;Alta;2018;Ariel;JGC-6;90;160;Gas Natural;ASME B31.8 / DS 081-2007-EM;Ing. Campo - Turno A;Mensual;22/05/2026
+EQA-2004;Generador Electrico Principal;Generador Electrico;Planta-Lima;Lima;Zona-C;Media;2021;Cummins;C1100D5;N/A;85;Diesel;DS 018-2004-EM;Ing. Electrico - Turno B;Bimestral;08/04/2026
+EQA-3001;Bomba de Enfriamiento;Bomba Centrifuga;Planta-Arequipa;Arequipa;Zona-A;Baja;2020;Grundfos;CM-10-2;25;80;Agua de Enfriamiento;ASME B31.4;Tecnico - Turno A;Trimestral;15/03/2026
+EQA-3002;Valvula de Corte de Bloqueo;Valvula de Corte;Planta-Arequipa;Arequipa;Zona-A;Baja;2020;Velan;VB-100;35;90;Gas Natural;ASME B31.8 / DS 081-2007-EM;Tecnico - Turno B;Semestral;20/02/2026
+EQA-3003;Compresor de Gas C;Compresor Reciprocante;Planta-Arequipa;Arequipa;Zona-B;Alta;2019;Ariel;JGC-4;85;150;Gas Natural;ASME B31.8 / DS 081-2007-EM;Ing. Campo - Turno A;Mensual;25/05/2026
+EQA-3004;Generador Auxiliar;Generador Diesel;Planta-Arequipa;Arequipa;Zona-C;Media;2021;Perkins;4006-23TAG3A;N/A;85;Diesel;DS 018-2004-EM;Ing. Electrico - Turno A;Bimestral;10/04/2026
+EQA-4001;Bomba de Transferencia Principal;Bomba Centrifuga;Planta-Piura;Piura;Zona-A;Alta;2017;Flowserve;PVXM-12;55;140;Gas Natural Liquido;ASME B31.4 / DS 062-2009-EM;Ing. Campo - Turno B;Mensual;28/05/2026
+EQA-4002;Valvula de Retencion Check;Valvula de Retencion;Planta-Piura;Piura;Zona-A;Media;2018;Crane;CV-300;45;100;Gas Natural;ASME B31.8 / DS 081-2007-EM;Tecnico - Turno A;Trimestral;15/04/2026
+EQA-4003;Compresor de Gas D;Compresor Reciprocante;Planta-Piura;Piura;Zona-B;Alta;2018;Ariel;JGC-6;90;160;Gas Natural;ASME B31.8 / DS 081-2007-EM;Ing. Campo - Turno C;Mensual;30/05/2026
+EQA-4004;Generador Principal de Respaldo;Generador Diesel;Planta-Piura;Piura;Zona-C;Baja;2022;Caterpillar;3406C;N/A;80;Diesel;DS 018-2004-EM;Ing. Electrico - Turno B;Bimestral;20/04/2026

@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__
+*.py[cod]
+.env
+*.env
+*.txt.local
+notebooks/
+tests/
+*.ipynb
+.ipynb_checkpoints/
+deploy_backend.sh
+README*
+*.md
