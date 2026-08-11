@@ -15,9 +15,12 @@ normativas públicas del sector de hidrocarburos.
 - **LLM**: GPT-4o (OpenAI)
 
 ## URLs desplegadas
-- Frontend: (pendiente)
-- Backend API: (pendiente)
-- MCP Server: https://mcp-mantenimiento-...run.app
+| Servicio  | URL |
+|-----------|-----|
+| Frontend  | https://frontend-fallas-xxx-uc.a.run.app |
+| Backend   | https://backend-fallas-26134329034.us-central1.run.app |
+| MCP Server| https://mcp-mantenimiento-pl3bqyhpiq-wn.a.run.app |
+| Docs API  | https://backend-fallas-26134329034.us-central1.run.app/docs |
 
 ## Módulos reutilizados
 - M2: Agente LangChain de fallas de mantenimiento
@@ -43,6 +46,27 @@ uvicorn app.main:app --reload
 # 4. Frontend (en otra terminal)
 cd frontend && streamlit run app.py
 ```
+
+## Pruebas de integración — Resultados
+
+| # | Escenario | Tools invocadas | Resultado |
+|---|-----------|-----------------|-----------|
+| 1 | Reporte falla completo EQA-1001 | 4 tools + PDF | ✅ |
+| 2 | Consulta normativa DS 081 | consultar_normativas | ✅ |
+| 3 | Contexto conversacional EQA-1003 | integrar_datos | ✅ |
+| 4 | Fuera de dominio | 0 tools | ✅ |
+| 5 | Equipo no encontrado EQA-9999 | integrar_datos | ✅ |
+| 6 | Swagger UI documentación | N/A | ✅ |
+| 7 | Smoke tests automatizados 3/3 | N/A | ✅ |
+
+## Arquitectura desplegada
+
+- **Frontend**: Streamlit en Cloud Run us-central1
+- **Backend**: FastAPI + LangChain ReAct en Cloud Run us-central1
+- **RAG**: Elasticsearch 8.19 en GCP VM us-west4-a (2,665 chunks)
+- **MCP Server**: FastMCP en Cloud Run us-west4
+- **LLM**: GPT-4o (OpenAI)
+- **Embeddings**: text-embedding-3-large (OpenAI)
 
 ## Estructura del repositorio
 (ver árbol de carpetas en docs/arquitectura.md)
